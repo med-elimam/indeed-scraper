@@ -1,7 +1,7 @@
 import requests
 import feedparser
 
-WEBHOOK = "https://n8n-production-2b30.up.railway.app/webhook-test/indeed-import"
+WEBHOOK = "https://n8n-production-2b30.up.railway.app/webhook/indeed-import"
 
 feeds = [
     "https://www.indeed.com/rss?q=embedded+systems&l=UAE",
